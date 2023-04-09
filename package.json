@@ -1,0 +1,27 @@
+{
+  "name": "gmc-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademmrabet/gmc-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ademmrabet/gmc-nodejs/issues"
+  },
+  "homepage": "https://github.com/ademmrabet/gmc-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "password-generator": "^2.3.2"
+  }
+}
